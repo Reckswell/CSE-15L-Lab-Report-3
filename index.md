@@ -37,3 +37,21 @@ This example looks for any files of type file **and** has the name `chapter*.txt
 ![image](https://github.com/Reckswell/CSE-15L-Lab-Report-3/assets/73510375/5b8c1bd0-b58a-489c-a0fe-e2ffd45370a6)
 
 This example looks for any files which are either a directory **or** have the file name `Session*.txt`
+
+## `-size`
+
+This option filters out for files of specific sizes. By default, it's expressed in KB, but can be changed by adding `K, M, G` for kilobytes, megabytes, and gigabytes respectively. 
+
+You can also add a `+` or `-` to indicate either greater than or less than the number following it, such as `-10M` to indicate "less than 10 megabytes."
+
+![image](https://github.com/Reckswell/CSE-15L-Lab-Report-3/assets/73510375/0c8a02c4-fb6b-4fb1-9374-52f1e3554851)
+
+This example returns any file type which is less than 5KB (notice how there's no indicator)
+
+![image](https://github.com/Reckswell/CSE-15L-Lab-Report-3/assets/73510375/c581c4c6-4118-49c8-bd6d-5e553824fdd9)
+
+This example returns any files which are exactly 5KB.
+
+![image](https://github.com/Reckswell/CSE-15L-Lab-Report-3/assets/73510375/22427fda-2418-48ea-99cc-3307227bc502)
+
+This example returns any files which are greater than 320KB.
