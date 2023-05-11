@@ -56,5 +56,6 @@ This example returns any files which are exactly 5KB.
 
 This example returns any files which are greater than 320KB.
 
+Sources Referenced:
 <br> https://math2001.github.io/article/bashs-find-command/
 <br> https://linuxconfig.org/how-to-use-find-command-to-search-for-files-based-on-file-size
