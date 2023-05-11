@@ -1,5 +1,9 @@
 # Lab Report 3
 
+Sources Referenced:
+<br> https://math2001.github.io/article/bashs-find-command/
+<br> https://linuxconfig.org/how-to-use-find-command-to-search-for-files-based-on-file-size
+
 For this lab report, I will be discussing the options of the `find` command in bash.
 
 ## `find -name`
@@ -55,7 +59,3 @@ This example returns any files which are exactly 5KB.
 ![image](https://github.com/Reckswell/CSE-15L-Lab-Report-3/assets/73510375/22427fda-2418-48ea-99cc-3307227bc502)
 
 This example returns any files which are greater than 320KB.
-
-Sources Referenced:
-<br> https://math2001.github.io/article/bashs-find-command/
-<br> https://linuxconfig.org/how-to-use-find-command-to-search-for-files-based-on-file-size
